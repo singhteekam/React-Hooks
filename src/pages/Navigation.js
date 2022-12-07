@@ -9,8 +9,8 @@ const Navigation=()=>{
                     <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                     <Navbar.Collapse id='responsive-navbar-nav' />
                     <Nav>
-                        <Nav.Link href='/'>Home</Nav.Link>
-                        <Nav.Link href='/usestate'>Usestate</Nav.Link>
+                        <Nav.Link href='./'>Home</Nav.Link>
+                        <Nav.Link href='./usestate'>Usestate</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
