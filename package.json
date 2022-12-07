@@ -1,7 +1,7 @@
 {
   "name": "react-hooks",
   "version": "0.1.0",
-  "homepage": "https://singhteekam.github.io/",
+  "homepage": "https://singhteekam.github.io/React-Hooks/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
