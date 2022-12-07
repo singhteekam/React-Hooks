@@ -1,0 +1,11 @@
+.mainHeading, .exampleHeading, .exampleContent{
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: rgb(32, 134, 32);
+    padding: 8px;
+    margin: 5px;
+    border-radius: 20px;
+}
