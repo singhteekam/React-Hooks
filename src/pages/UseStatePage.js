@@ -5,9 +5,13 @@ import {
     UseStateHookExample4} from "../hooks/UseStateHook";
 import '../css/UseStatePage.css'
 
+import Navigation from "./Navigation";
+
 const UseStatePage=()=>{
     return(
         <>
+            <Navigation />
+
             <h2 className="mainHeading">UseState Hook</h2>
             <hr />
 

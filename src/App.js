@@ -3,6 +3,7 @@ import './App.css';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import UseStatePage from './pages/UseStatePage';
 import Homepage from './pages/Homepage'
+import Navigation from './pages/Navigation';
 
 
 function App() {
@@ -10,8 +11,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-            <Route index element={<Homepage />} />
-            <Route path='/' element={<UseStatePage />} />
+            <Route path='/' element={<Homepage />} />
+            <Route path='/usestate' element={<UseStatePage />} />
         </Routes>
       </BrowserRouter>
     </>

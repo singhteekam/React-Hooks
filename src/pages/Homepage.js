@@ -1,23 +1,11 @@
 import {Link} from "react-router-dom";
+import Navigation from "./Navigation";
 
 const Homepage=()=>{
     return(
         <>
-        <h3>homepage</h3>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to="/">
-                            Homepage
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/usestate">
-                            Usestate hook
-                        </Link>
-                    </li>
-                </ul>
-            </nav>
+        <Navigation />
+            {/* <h6>Hiii</h6> */}
         </>
     )
 }
